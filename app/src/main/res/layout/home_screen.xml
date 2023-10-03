@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_home_logo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:background="#000000"
+                app:srcCompat="@drawable/univali_logo_dark" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="75"
+                android:gravity="center_vertical"
+                android:text="Bem vindo {usuário}"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:background="#0C4BC5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="45dp"
+                android:background="@drawable/border_radious"
+                android:backgroundTint="#FFFFFF"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        app:srcCompat="@drawable/icon_materia" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="15" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="65"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_materia_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Materia 1"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/txt_building_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bloco B5 sala 109"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txt_teacher_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="prof: Foo"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/txt_schedule_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="horário: Seg - 19:00 - 22:00"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        app:srcCompat="@drawable/icon_materia" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="15" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="65"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_materia_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Materia 1"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/txt_building_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bloco B5 sala 109"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txt_teacher_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="prof: Foo"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/txt_schedule_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="horário: Seg - 19:00 - 22:00"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        app:srcCompat="@drawable/icon_materia" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="15" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="65"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_materia_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Materia 1"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/txt_building_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bloco B5 sala 109"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/txt_teacher_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="prof: Foo"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/txt_schedule_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="horário: Seg - 19:00 - 22:00"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:contentDescription="TODO"
+                        app:srcCompat="@drawable/icon_map" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="15" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="65"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txt_map_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mapa Univali"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/txt_map_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mapa de calor dos blocos"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/txt_map_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="em geral, e suas vagas"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/txt_map_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="disponíveis"
+                            android:textSize="16dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

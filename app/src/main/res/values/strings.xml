@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">prog_mobile_1</string>
+    <string name="content_1">Content 1</string>
+    <string name="app_title">Estáciona Fácil</string>
+    <string name="user_code">Código do Aluno</string>
+    <string name="password">Senha</string>
+    <string name="keep_me_logged_in">Mantenha-me Conectado</string>
+    <string name="enter">Entrar</string>
+</resources>
