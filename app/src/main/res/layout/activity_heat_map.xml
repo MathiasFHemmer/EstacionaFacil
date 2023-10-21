@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txt_backArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="Voltar"
+                android:textSize="20sp"
+                >
+            </TextView>
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/univali_logo_dark"
+                android:background="@color/black">
+
+            </ImageView>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_heatMap"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleX="1.1"
+                android:scaleY="1.1"
+                android:src="@drawable/heatmap_off"
+                />
+
+            <Button
+                android:id="@+id/btn_toggleHeatMap"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="@string/heatmap"
+                android:textSize="24sp"
+                app:cornerRadius="2dp"
+                android:backgroundTint="#060606"
+                android:translationY="-32dp"
+                android:layout_height="75dp"
+                android:layout_width="150dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+            </Button>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
